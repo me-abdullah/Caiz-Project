@@ -1,0 +1,64 @@
+.earn-modal{
+  padding: 2rem 4rem;
+    .title {
+        display: flex;
+        padding: 0 0 1rem 0;
+        border-bottom: 1px solid rgb(230, 230, 230);
+  align-items: center;
+        img {
+          width: 3rem;
+        }
+  
+        h3 {
+          text-align: left;
+          font-size: 1rem;
+          padding-inline: 1rem;
+          font-weight: 900;
+          margin-bottom: 0;
+        }
+      }
+  .body{
+margin: auto;
+button{
+  margin: 2rem  auto ;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 5px;
+  color: white;
+  justify-content: center;
+}
+.descriptions{
+display: flex;
+ justify-content: center;
+  h3 {
+    text-align: center;
+    font-size: 1rem;
+    padding-inline: 1rem;
+    font-weight: 500;
+    margin-bottom: 0;
+    width: 15rem;
+  }
+}
+    .step-number{
+      // margin: 2rem  auto 0rem auto;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      // background-color: rgb(197, 197, 197);
+      width: 7rem;
+      height: 2rem;
+      border-radius: 5px;
+      h3 {
+        text-align: center;
+        font-size: 0.8rem;
+        padding-inline: 1rem;
+        font-weight: 900;
+        margin-bottom: 0;
+        color: rgb(197, 197, 197);
+      }
+    }
+  }
+}

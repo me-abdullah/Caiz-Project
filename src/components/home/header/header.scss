@@ -1,0 +1,32 @@
+.header {
+    .row {
+        align-items: center;
+        padding:20rem 0 0 0;
+        @media screen and (max-width:520px) {
+            img {
+                width: 26rem ;
+            }
+        }
+        @media screen and (min-width:521px) {
+            img {
+                width: 36rem;
+            }
+        }
+   
+
+        p {
+            color: white;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: left;
+            width: 70%;
+            margin-bottom: 0;
+
+            @media screen and (max-width:1199px) {
+                width: 100%;
+                text-align: center;
+                padding: 4rem 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+.login-loader {
+    padding: 6rem 3rem;
+
+    .title {
+        justify-content: center;
+        align-items: center;
+
+        .logo {
+            height: 3.6rem;
+            width: 3.6rem;
+            margin-bottom: 1rem;
+        }
+
+        h6 {
+            font-weight: 500;
+            color: white;
+            margin: 0;
+
+        }
+    }
+
+    .body {
+        margin-top: 20px;
+
+        .description {
+            border-top: 1px solid #9a9a9a;
+            color: black;
+            font-size: 16px;
+            width: 100%;
+            margin: auto;
+            padding-top: 2rem;
+            text-align: center;
+            padding-inline: 3rem;
+            font-weight: 500 !important;
+        }
+    }
+
+
+
+}

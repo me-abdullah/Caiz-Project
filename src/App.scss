@@ -1,0 +1,44 @@
+.App 
+{
+  text-align: center;
+}
+@font-face {
+  font-family: 'Manrope';
+  src: url('../src/assets/fonts/static/Manrope-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ManropeEb';
+  src: url('../src/assets/fonts/static/Manrope-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../src/assets/fonts/static/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../src/assets/fonts/static/Inter-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.foManEb{
+  font-family: 'ManropeEb';
+}
+
+.foOpenSans{
+  font-family: 'Open Sans';
+}
+
+.foInter{
+  font-family: 'Inter';
+}

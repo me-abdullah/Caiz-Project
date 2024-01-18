@@ -1,0 +1,187 @@
+.sub-menu {
+    margin: 80px auto;
+}
+//column
+.custom-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.footer-top {
+    //column modify
+    .container-fluid.ps-5.pe-5 {
+        padding: 0px !important;    
+    }
+    .custom-news-col {
+        padding: 0px;
+    }    
+    //card
+    .custom-card-col {
+        margin-right: 40px !important;
+        padding: 0px 40px 10px 30px;
+    }
+    .custom-card {
+        height: 100% !important;
+        width: 120% !important;
+    }
+    .custom-card img {
+        height: 50% !important;
+        width: 50% !important;
+        margin-left: 25%;
+    }    
+    .card-body{
+        padding-top: 10px !important;
+        margin-bottom: 16px !important;
+    }
+    p.card-text{
+         color: #495057!important
+    }
+    //hover effect    
+    .primary-link {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: none;
+        text-align: left;
+        color: #495057;
+
+        &:hover {
+            &:after {
+                width: 100%;
+            }
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 3px;
+            background: #5EC14A; 
+            transition: width .3s;
+        }
+    }
+
+    .heads {
+        position: relative;
+        color: #495057;
+        margin: 5px 0;
+        text-align: start;
+        padding-left: 30px;
+
+    }
+
+    ul {
+        list-style-type: none;
+
+        li {
+            text-align: start;
+            margin-top: 10px;
+
+            a {
+                text-decoration: none;
+                color: #757575;
+                padding: 5px 0;
+
+                @media (min-width: 1200px) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    form {
+        @media screen and (min-width:1200px) {
+            text-align: start;
+            padding-left: 30px;
+        }
+
+        width: 100%;
+        display: contents;
+
+        .form-group {
+            width: 100%;
+            display: grid;
+
+            input {
+                width: 100%;
+                height: 50px;
+                background-color: #f8f9fa!important;
+                border: none;
+                border-radius: 5px;
+                padding: 0 15px;
+                outline: none !important;
+                transition: 0.4s;
+                margin-top: 7px;
+
+                @media (max-width:1366px) {
+                    height: 40px;
+                    font-size: 18px;
+                }
+
+                @media only screen and (max-width : 480px) {
+                    font-size: 17px;
+                    height: 40px;
+                }
+            }
+
+            input :focus {
+                border: 2px solid #06670d;
+            }
+
+            input::placeholder {
+                color: #b4b4b4;
+                opacity: 1;
+                font-size: 16px;
+                font-family: 'Manrope';
+            }
+
+            input :-ms-input-placeholder {
+                color: #b4b4b4;
+
+            }
+
+            span {
+                color: #757575;
+                text-align: start;
+            }
+
+            button {
+                all: unset;
+                margin: 10px 0;
+                border-radius: 5px;
+                width: 100%;
+                text-align: center;
+                color: white;
+                height: 50px;
+                margin: 0;
+                margin-top: 7px;
+                font-size: 16px;
+                font-family: 'ManropeEb';
+                background: #070707
+               
+            }
+            button:disabled,
+            button[disabled]{
+                background: #757575 !important;
+            }
+        }
+
+    }
+
+    h3 {
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    span {
+        font-size: 16px;
+
+        @media (min-width: 1200px) {
+            font-size: 14px;
+        }
+    }
+
+    .hiring a {
+        color: #74d550 !important;
+        border-radius: 5px;
+    }
+    
+}

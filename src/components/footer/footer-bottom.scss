@@ -1,0 +1,115 @@
+.footer-bottom {
+  background-color: #ffffff;
+  color: #757575;
+  width: 100%;
+  display: flex;
+  flex-direction: column;  // Switch to column layout
+  padding: 30px 20px;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px dotted #f8f9fa !important;
+
+  .row {
+    width: 100%;
+
+    .social-media {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        img {
+          width: auto;
+          margin-inline: 5px;
+          width: 25px;
+          height: 25px;
+
+          @media screen and (max-width: 990px) {
+            margin: 5px;
+          }
+        }
+      }
+    }
+
+    .partners,
+    .site-links {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 105px;
+        padding: 10px;
+
+        @media screen and (max-width: 990px) {
+          width: 80px;
+        }
+      }
+
+      a {
+        align-items: center;
+        text-decoration: none;
+        font-size: 13px;
+        padding: 0 10px 10px 10px;
+
+        img {
+          width: auto;
+          width: 25px;
+          height: 25px;
+
+          @media screen and (max-width: 990px) {
+            width: 20px;
+            height: 20px;
+          }
+        }
+
+        span {
+          color: #495057 !important;
+
+          position: relative;
+          display: inline-block;
+
+          &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            height: 2px;
+            width: 100%;
+            background-color: #5ec14a;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease;
+          }
+
+          &:hover:after {
+            transform: scaleX(1);
+          }
+        }
+      }
+    }
+
+    .copyright {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+      font-size: 14px;
+
+      p {
+        color: #757575;
+        margin: 0;
+
+        @media screen and (max-width: 990px) {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+
+.footer-bottom-modified {
+  @extend .footer-bottom;
+  background-color: #f8f9fa;
+}

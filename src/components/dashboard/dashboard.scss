@@ -1,0 +1,90 @@
+.dashboard{
+    padding-top: 10rem;
+    .header{
+        padding: 8rem 0 10rem 0;
+        @media screen and (max-width:1630px) {
+            padding: 2rem 0;
+
+        }
+        align-items: center;
+        .logo-img{
+            img{
+                width: 25rem;
+            }
+        }
+        .address-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            border-radius: 10px;
+            padding: 1rem;
+            @media screen and (max-width:400px) {
+                display: block;
+                justify-content: space-between;
+                align-items: center;
+                background-color: black;
+                border-radius: 10px;
+                padding: 1rem;
+            }
+            p{
+                margin-bottom: 0;
+                color: white;
+                text-align: end;
+                @media screen and (max-width:400px) {
+                    text-align: center;
+                    margin-bottom: 1rem;
+
+                }
+            }
+            .wallet-address{
+                @media screen and (max-width:1200px) {
+                    width: 50%;
+                    display: block;
+                    padding-top: 10px;
+
+                }
+                @media screen and (max-width:400px) {
+                    width: 100%;
+                    margin-bottom: 1rem;
+                    display: block;
+
+
+                }
+                width: 70%;
+                background-color: white;
+                height: 3rem;
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                padding-inline: 10px;
+                h3{
+                    font-size: 13px;
+                    font-weight: 900;
+                    margin-bottom: 0;
+                    text-align: justify;
+                    word-wrap: break-word;
+                }
+            }
+            button{
+                all: unset;
+                background-color: #a7bd42;
+                border-radius: 5px;
+                cursor: pointer;
+                img{
+                    width: 1.5rem;
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+    .cards-container{
+        border-bottom: 1px solid rgb(187, 187, 187);
+        padding: 5rem 0;
+        margin-bottom: 5rem;
+
+    }
+    .transaction-history{
+
+    }
+}
